@@ -1,0 +1,105 @@
+﻿<Properties StartupConfiguration="{CEB6C3D1-1977-4A36-848E-7BDC4F598DDC}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CleanArchitecture.Application/Contracts/Persistence/IStreamerRepository.cs">
+    <Files>
+      <File FileName="CleanArchitecture.Data/Repositories/RepositoryBase.cs" Line="1" Column="1" />
+      <File FileName="CleanArchitecture.Data/Repositories/StreamerRepository.cs" Line="1" Column="1" />
+      <File FileName="CleanArchitecture.Application/Behaviours/ValidationBehaviour.cs" Line="38" Column="1" />
+      <File FileName="CleanArchitecture.Application/Exceptions/ValidationException.cs" Line="16" Column="40" />
+      <File FileName="CleanArchitecture.Application/Exceptions/NotFoundException.cs" Line="1" Column="1" />
+      <File FileName="CleanArchitecture.Application/Features/Streamers/Commands/CreateStreamer/CreateStreamerCommand.cs" Line="1" Column="1" />
+      <File FileName="CleanArchitecture.Application/Features/Streamers/Commands/CreateStreamer/CreateStreamerCommandHandler.cs" Line="64" Column="1" />
+      <File FileName="CleanArchitecture.Application/Features/Streamers/Commands/DeleteStreamer/DeleteStreamerCommand.cs" Line="8" Column="6" />
+      <File FileName="CleanArchitecture.Application/Features/Streamers/Commands/DeleteStreamer/DeleteStreamerCommandHandler.cs" Line="40" Column="1" />
+      <File FileName="CleanArchitecture.Application/Features/Streamers/Commands/CreateStreamer/CreateStreamerCommandValidator.cs" Line="7" Column="32" />
+      <File FileName="CleanArchitecture.Application/Features/Videos/Queries/GetVideosList/GetVideosListQuery.cs" Line="1" Column="1" />
+      <File FileName="CleanArchitecture.Application/Features/Videos/Queries/GetVideosList/GetVideosListQueryHandler.cs" Line="3" Column="1" />
+      <File FileName="CleanArchitecture.Application/Mappings/MappingProfile.cs" Line="5" Column="1" />
+      <File FileName="CleanArchitecture.Application/ApplicationServiceRegistration.cs" Line="19" Column="42" />
+      <File FileName="CleanArchitecture.Data/InfrastructureServiceRegistration.cs" Line="39" Column="1" />
+      <File FileName="CleanArchitecture.Domain/Actor.cs" Line="6" Column="33" />
+      <File FileName="CleanArchitecture.Domain/Common/BaseDomainModel.cs" Line="6" Column="1" />
+      <File FileName="CleanArchitecture.Domain/Common/ValueObject.cs" Line="42" Column="1" />
+      <File FileName="CleanArchitecture.API/Program.cs" Line="16" Column="32" />
+      <File FileName="CleanArchitecture.Application/Behaviours/UnhandledExceptionBehaviour.cs" Line="1" Column="1" />
+      <File FileName="CleanArchitecture.Application/Contracts/Persistence/IAsyncRepository.cs" Line="1" Column="12" />
+      <File FileName="CleanArchitecture.API/Controllers/VideoController.cs" Line="30" Column="1" />
+      <File FileName="CleanArchitecture.API/Controllers/StreamerController.cs" Line="60" Column="1" />
+      <File FileName="CleanArchitecture.Data/Email/EmailService.cs" Line="54" Column="1" />
+      <File FileName="CleanArchitecture.Application/Contracts/Persistence/IStreamerRepository.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CleanArchitecture" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="API" expanded="True">
+                <Node name="CleanArchitecture.API" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Properties" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Core" expanded="True">
+                <Node name="CleanArchitecture.Application" expanded="True">
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="FrameworkReferences" expanded="True" />
+                    <Node name="PackageDependencies" expanded="True" />
+                    <Node name="ProjectDependencies" expanded="True" />
+                  </Node>
+                  <Node name="Behaviours" expanded="True" />
+                  <Node name="Contracts" expanded="True">
+                    <Node name="Infrastructure" expanded="True" />
+                    <Node name="Persistence" expanded="True">
+                      <Node name="IStreamerRepository.cs" selected="True" />
+                    </Node>
+                  </Node>
+                  <Node name="Exceptions" expanded="True" />
+                  <Node name="Features" expanded="True">
+                    <Node name="Streamers" expanded="True">
+                      <Node name="Commands" expanded="True">
+                        <Node name="CreateStreamer" expanded="True" />
+                        <Node name="DeleteStreamer" expanded="True" />
+                        <Node name="UpdateStreamer" expanded="True" />
+                      </Node>
+                    </Node>
+                    <Node name="Videos" expanded="True" />
+                  </Node>
+                  <Node name="Mappings" expanded="True" />
+                </Node>
+                <Node name="CleanArchitecture.Domain" expanded="True">
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="FrameworkReferences" expanded="True" />
+                  </Node>
+                  <Node name="Common" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Infrastructure" expanded="True">
+                <Node name="CleanArchitecture.Infrastructure" expanded="True">
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="FrameworkReferences" expanded="True" />
+                    <Node name="PackageDependencies" expanded="True" />
+                    <Node name="ProjectDependencies" expanded="True" />
+                  </Node>
+                  <Node name="Email" expanded="True" />
+                  <Node name="Migrations" expanded="True" />
+                  <Node name="Repositories" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/xareas/Downloads/section-1/CleanArchitecture/CleanArchitecture.Application/Contracts/Persistence/IAsyncRepository.cs" relfile="CleanArchitecture.Application/Contracts/Persistence/IAsyncRepository.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.src.API.CleanArchitecture.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
